@@ -4542,3 +4542,316 @@ Processing by RegistrationsController#create as */*
   [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'teste10@gmail.com' AND "users"."invited_by_id" IS NULL LIMIT 1[0m
 Completed 200 OK in 39ms (Views: 19.3ms | ActiveRecord: 6.1ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-31 03:32:39 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/_email_capture.html.erb (222.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (229.1ms)
+  Rendered layouts/_navigation.html.haml (6.9ms)
+  Rendered layouts/_messages.html.haml (2.0ms)
+Completed 200 OK in 584ms (Views: 479.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /application.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.bootstrap.css?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /dataTables/jquery.dataTables.bootstrap.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-transition.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-alert.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-tab.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap.js - 304 Not Modified (84ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /dataTables/jquery.dataTables.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.bootstrap.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /dataTables/jquery.dataTables.bootstrap.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 03:32:40 -0200
+Served asset /application.js - 304 Not Modified (32ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-10-31 03:34:06 -0200
+Processing by RegistrationsController#create as */*
+  Parameters: {"user"=>{"email"=>"testa@gmail.com"}}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'testa@gmail.com' AND "users"."encrypted_password" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'testa@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (9.9ms)[0m  INSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "confirmed_at", "created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "invitation_accepted_at", "invitation_limit", "invitation_sent_at", "invitation_token", "invited_by_id", "invited_by_type", "last_sign_in_at", "last_sign_in_ip", "name", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "unconfirmed_email", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["confirmation_sent_at", nil], ["confirmation_token", nil], ["confirmed_at", nil], ["created_at", Thu, 31 Oct 2013 05:34:06 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "testa@gmail.com"], ["encrypted_password", ""], ["invitation_accepted_at", nil], ["invitation_limit", nil], ["invitation_sent_at", nil], ["invitation_token", nil], ["invited_by_id", nil], ["invited_by_type", nil], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["name", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["unconfirmed_email", nil], ["updated_at", Thu, 31 Oct 2013 05:34:06 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mUPDATE "users" SET "encrypted_password" = NULL, "updated_at" = '2013-10-31 05:34:06.826778' WHERE "users"."id" = 13[0m
+  [1m[35m (0.7ms)[0m  commit transaction
+  Rendered devise/registrations/_thankyou.html.erb (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'testa@gmail.com' AND "users"."invited_by_id" IS NULL LIMIT 1[0m
+Completed 200 OK in 285ms (Views: 31.6ms | ActiveRecord: 14.1ms)
+Connecting to database specified by database.yml
+  [1m[36m (6.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (4.2ms)[0m  DROP TABLE "roles"
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "roles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "resource_id" integer, "resource_type" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("roles")
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_roles_on_name_and_resource_type_and_resource_id" ON "roles" ("name", "resource_type", "resource_id")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("roles")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_roles_on_name_and_resource_type_and_resource_id')[0m
+  [1m[35m (1.7ms)[0m  CREATE INDEX "index_roles_on_name" ON "roles" ("name")
+  [1m[36m (3.3ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (1.9ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '', "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "name" varchar(255), "confirmation_token" varchar(255), "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar(255), "invitation_token" varchar(60), "invitation_sent_at" datetime, "invitation_accepted_at" datetime, "invitation_limit" integer, "invited_by_id" integer, "invited_by_type" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_email')
+  [1m[36m (1.4ms)[0m  [1mCREATE INDEX "index_users_on_invitation_token" ON "users" ("invitation_token")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_invitation_token')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_email')
+  [1m[36m (1.2ms)[0m  [1mCREATE INDEX "index_users_on_invited_by_id" ON "users" ("invited_by_id")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_invited_by_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_invitation_token')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (2.1ms)[0m  [1mDROP TABLE "users_roles"[0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "users_roles" ("user_id" integer, "role_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("users_roles")[0m
+  [1m[35m (1.6ms)[0m  CREATE INDEX "index_users_roles_on_user_id_and_role_id" ON "users_roles" ("user_id", "role_id")
+  [1m[36m (0.7ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'user@example.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (6.5ms)[0m  [1mINSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "confirmed_at", "created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "invitation_accepted_at", "invitation_limit", "invitation_sent_at", "invitation_token", "invited_by_id", "invited_by_type", "last_sign_in_at", "last_sign_in_ip", "name", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "unconfirmed_email", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["confirmation_sent_at", nil], ["confirmation_token", nil], ["confirmed_at", Thu, 31 Oct 2013 05:48:18 UTC +00:00], ["created_at", Thu, 31 Oct 2013 05:48:19 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "user@example.com"], ["encrypted_password", "$2a$10$P6vauBXssCuwY/Rs.WsdDukVxk.acq6phCzVeCxoo20PHAxhTLlzC"], ["invitation_accepted_at", nil], ["invitation_limit", nil], ["invitation_sent_at", nil], ["invitation_token", nil], ["invited_by_id", nil], ["invited_by_type", nil], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["name", "First User"], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["unconfirmed_email", nil], ["updated_at", Thu, 31 Oct 2013 05:48:19 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'user2@example.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "confirmed_at", "created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "invitation_accepted_at", "invitation_limit", "invitation_sent_at", "invitation_token", "invited_by_id", "invited_by_type", "last_sign_in_at", "last_sign_in_ip", "name", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "unconfirmed_email", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["confirmation_sent_at", nil], ["confirmation_token", nil], ["confirmed_at", Thu, 31 Oct 2013 05:48:19 UTC +00:00], ["created_at", Thu, 31 Oct 2013 05:48:19 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "user2@example.com"], ["encrypted_password", "$2a$10$s7Z4mV8r4l83qdkYMV9Tn.wI.Wq83pUl5wgvJ0WI39DGYI.k/VQZ6"], ["invitation_accepted_at", nil], ["invitation_limit", nil], ["invitation_sent_at", nil], ["invitation_token", nil], ["invited_by_id", nil], ["invited_by_type", nil], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["name", "Second User"], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["unconfirmed_email", nil], ["updated_at", Thu, 31 Oct 2013 05:48:19 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."name" = 'admin' AND "roles"."resource_type" IS NULL AND "roles"."resource_id" IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "roles" ("created_at", "name", "resource_id", "resource_type", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 31 Oct 2013 05:48:19 UTC +00:00], ["name", :admin], ["resource_id", nil], ["resource_type", nil], ["updated_at", Thu, 31 Oct 2013 05:48:19 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mRole Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "roles" INNER JOIN "users_roles" ON "roles"."id" = "users_roles"."role_id" WHERE "users_roles"."user_id" = 1 AND "roles"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT "roles".id FROM "roles" INNER JOIN "users_roles" ON "roles"."id" = "users_roles"."role_id" WHERE "users_roles"."user_id" = 1
+  [1m[36mRole Load (0.2ms)[0m  [1mSELECT "roles".* FROM "roles" WHERE "roles"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mRole Load (0.1ms)[0m  SELECT "roles".* FROM "roles" INNER JOIN "users_roles" ON "roles"."id" = "users_roles"."role_id" WHERE "users_roles"."user_id" = 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "users_roles" ("user_id", "role_id") VALUES (1, 1)
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-31 03:49:00 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/_email_capture.html.erb (224.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (234.2ms)
+  Rendered layouts/_navigation.html.haml (7.7ms)
+  Rendered layouts/_messages.html.haml (4.3ms)
+Completed 200 OK in 1053ms (Views: 876.4ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.bootstrap.css?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /dataTables/jquery.dataTables.bootstrap.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /users.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-transition.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-alert.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-collapse.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-carousel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:02 -0200
+Served asset /bootstrap-dropdown.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /bootstrap-tooltip.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /bootstrap-typeahead.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /dataTables/jquery.dataTables.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/dataTables/jquery.dataTables.bootstrap.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /dataTables/jquery.dataTables.bootstrap.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /bootstrap.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /application.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/bg.png" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /bg.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-31 03:49:03 -0200
+Served asset /glyphicons-halflings.png - 304 Not Modified (7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-10-31 03:49:08 -0200
+Processing by RegistrationsController#create as */*
+  Parameters: {"user"=>{"email"=>"teste@gmail.com"}}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'teste@gmail.com' AND "users"."encrypted_password" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'teste@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (5.8ms)[0m  INSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "confirmed_at", "created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "invitation_accepted_at", "invitation_limit", "invitation_sent_at", "invitation_token", "invited_by_id", "invited_by_type", "last_sign_in_at", "last_sign_in_ip", "name", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "unconfirmed_email", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["confirmation_sent_at", nil], ["confirmation_token", nil], ["confirmed_at", nil], ["created_at", Thu, 31 Oct 2013 05:49:08 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "teste@gmail.com"], ["encrypted_password", ""], ["invitation_accepted_at", nil], ["invitation_limit", nil], ["invitation_sent_at", nil], ["invitation_token", nil], ["invited_by_id", nil], ["invited_by_type", nil], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["name", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["unconfirmed_email", nil], ["updated_at", Thu, 31 Oct 2013 05:49:08 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "users" SET "encrypted_password" = NULL, "updated_at" = '2013-10-31 05:49:08.592755' WHERE "users"."id" = 3[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+  Rendered devise/registrations/_thankyou.html.erb (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'teste@gmail.com' AND "users"."invited_by_id" IS NULL LIMIT 1[0m
+Completed 200 OK in 99ms (Views: 22.3ms | ActiveRecord: 10.2ms)
+Connecting to database specified by database.yml
