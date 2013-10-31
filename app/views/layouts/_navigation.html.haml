@@ -1,0 +1,17 @@
+= link_to content_tag(:i, "", class: "fa fa-pencil-square-o") + ' Passa o bizu', root_path, :class => 'brand'
+%ul.nav{ :class => 'pull-right'}
+  - if user_signed_in? && false
+    %li
+      = link_to('Sair', destroy_user_session_path, :method=>'delete')
+  - elsif false
+    %li
+      = link_to('Entrar', new_user_session_path)
+  - if user_signed_in? && false
+    %li
+      = link_to('Editar conta', edit_user_registration_path)
+    - if current_user.has_role? :admin  && false
+      %li
+        = link_to('Admin', users_path)
+  - elsif false
+    %li
+      = link_to('Cadastrar', new_user_registration_path)
